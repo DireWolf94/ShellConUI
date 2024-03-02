@@ -1,0 +1,122 @@
+.aboutParentTop{
+    display: flex;
+    flex-direction: row;
+    color: blue;
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+.leftBorder{
+    width: 1%;
+    background-color: rgba(29,49,85,255);
+}
+
+.aboutParent{
+    width: 55%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.emptyVerticalSpaceParent{
+    width:5%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.emptyVertcalWhiteSpace1{
+    height:90%;
+    background-color: white;
+}
+
+.emptyVertcalGreySpace1{
+    height:10%;
+    background-color: rgb(238,238,240,255);
+}
+.emptyHorizontalSpaceTop{
+    height: 10%;
+    background-color: white;
+
+}
+.emptyHorizontalSpaceMid{
+    height: 15%;
+    background-color: white;
+
+}
+.blueLine{
+    height: 0.5%;
+    background-color: rgba(29,49,85,255);
+    width: 20%;
+    
+}
+.about{
+    height: 79.5%;
+    color: rgba(29,49,85,255);
+
+
+}
+.greyFooter{
+
+    height: 10%;
+    background-color: rgba(238,238,240,255);
+}
+.statsParent{
+    width: 25%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.emptyHorizontalSpaceStatsTop{
+    height: 10%;
+    background-color: white;
+}
+
+.numberStyle{
+    font-size: 100px;
+    margin: 0px;
+    color: rgba(238,238,240,255);
+    top: 10%;
+    position: relative;
+}
+.textStyle{
+    font-size: 30px;
+    margin: 0px;
+    color: rgba(238,238,240,255);
+    top: 10%;
+    position: relative;
+}
+.statsBox1{
+    height: 38%;
+    text-align: center;
+    background-color: rgba(167,173,175,255);
+    position: relative;
+}
+.emptyHorizontalSpaceStatsMid{
+    height: 2%;
+    background-color: white;
+}
+.statsBox2{
+    height: 50%;
+    text-align: center;
+    background-color: rgba(31,103,138,255);
+    position: relative;
+}
+
+.emptyParent{
+    width: 15%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightBorder{
+    width: 1%;
+    background-color: rgba(29,49,85,255)
+}
+

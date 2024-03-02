@@ -1,0 +1,103 @@
+.serviceParentTop{
+    display: flex;
+    flex-direction: row;
+    color: blue;
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+.leftBorder{
+    width: 1%;
+    background-color: rgba(29,49,85,255);
+}
+
+.serviceParent{
+    width: 98%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    height: 20%;
+    background-color: rgba(238,238,240,255);
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.headerTitle{
+    width: 60%;
+    background-color: rgba(238,238,240,255);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgba(29,49,85,255);
+}
+
+.blueBox{
+    width: 25%;
+    background-color: rgba(31,103,138,255);
+}
+
+.greyBox{
+    width: 15%;
+    background-color: rgba(238,238,240,255);
+}
+.emptyRowWhite{
+    height: 15%;
+    background-color: white;
+
+}
+
+.emptyRowWhite1{
+    height: 1%;
+    background-color: white;
+
+}
+
+.imageHolder{
+    height: 45%;
+    color: rgba(29,49,85,255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.image{
+    width: 20%;
+}
+
+.buttonHolder{
+    height: 10%;
+    color: rgba(29,49,85,255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.button{
+    width: 20%;
+}
+.whiteFooter{
+
+    height: 9%;
+    background-color: white;
+}
+
+
+.rightBorder{
+    width: 1%;
+    background-color: rgba(29,49,85,255)
+}
+
