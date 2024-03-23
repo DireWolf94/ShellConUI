@@ -1,24 +1,41 @@
 import SimpleImageSlider from "react-simple-image-slider";
+import image1 from "./assets/main_slide/bedroom.png"
 import { useState, useEffect } from "react";
 import "./Slider.css"
+import Button from '@mui/material/Button';
+
 const images = [
     {
-      url: 'https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
-      caption: 'Slide 1'
+      url: image1,
+      caption: 'Services'
     },
     {
-      url: 'https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80',
-      caption: 'Slide 2'
+      url: image1,
+      caption: 'Projects'
     },
     {
-      url: 'https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
-      caption: 'Slide 3'
+      url: image1,
+      caption: 'Gallery'
     },
   ];
 function Slider(){
     const [width, setWidth] = useState(100);
     const [height, setHeight] = useState(100);
     const [buttonText, setButtonText] = useState(images[0]["caption"])
+    const buttonStyle = {
+      position:"absolute",
+      bottom: "6%",
+      top: "87%",
+      backgroundColor: "transparent",
+      left: "40%",
+      right: "40%",
+      borderWidth: "10px",
+      border: "solid white 1px",
+      fontSize: "20px",
+      color: "white",
+      boxShadow: "0 2px 4px 0 rgba(0,0,0,.2)"
+
+    }
     useEffect(() => {
         const resizeObserver = new ResizeObserver((event) => {
             // Depending on the layout, you may need to swap inlineSize with blockSize
@@ -27,7 +44,7 @@ function Slider(){
             setHeight(event[0].contentBoxSize[0].blockSize);
         });
 
-        resizeObserver.observe(document.getElementById("one"));
+        resizeObserver.observe(document.getElementById("home"));
     })
 
     const onStartSlide = (id , length) => {
@@ -45,7 +62,8 @@ function Slider(){
         showNavs={true}
         onStartSlide={onStartSlide}
       />
-      <button className="transparent-button">{buttonText}</button>
+      <Button variant="outlined" className="transparent-button" sx={buttonStyle}>{buttonText}</Button>
+      {/* <button className="transparent-button">{buttonText}</button> */}
     </div>
   );
 }

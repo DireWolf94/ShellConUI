@@ -4,13 +4,41 @@
     color: blue;
     position: relative;
     z-index: 10;
+    height: 90%;
+    width: 100%;
+    
+
+}
+
+@media (max-width: 584px){
+    .aboutParentTop {
+      height: 100% !important;
+    }
+  }
+@media (max-width: 584px){
+    .aboutParentHeader {
+      height: 5% !important;
+    }
+  }
+
+.aboutParentHeader{
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.aboutParentTop1{
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    position: relative;
+    z-index: 10;
     height: 100%;
     width: 100%;
     
 
 }
 
-.leftBorder{
+.leftBorde{
     width: 1%;
     background-color: rgba(29,49,85,255);
 }
@@ -31,7 +59,7 @@
 }
 
 .emptyVertcalWhiteSpace1{
-    height:90%;
+    height:100%;
     background-color: white;
 }
 
@@ -40,7 +68,7 @@
     background-color: rgb(238,238,240,255);
 }
 .emptyHorizontalSpaceTop{
-    height: 10%;
+    width: 98%;
     background-color: white;
 
 }
@@ -56,7 +84,7 @@
     
 }
 .about{
-    height: 79.5%;
+    height: 99.5%;
     color: rgba(29,49,85,255);
 
 
@@ -68,6 +96,7 @@
 }
 .statsParent{
     width: 25%;
+    min-width: 200px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -102,12 +131,17 @@
     background-color: white;
 }
 .statsBox2{
-    height: 50%;
+    height: 60%;
     text-align: center;
     background-color: rgba(31,103,138,255);
     position: relative;
 }
 
+@media (max-width: 584px){
+    .emptyParent {
+      display: none !important;
+    }
+  }
 .emptyParent{
     width: 15%;
     background-color: white;
@@ -115,7 +149,7 @@
     flex-direction: column;
 }
 
-.rightBorder{
+.rightBorde{
     width: 1%;
     background-color: rgba(29,49,85,255)
 }

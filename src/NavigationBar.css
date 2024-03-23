@@ -1,31 +1,75 @@
 
 .topparent{
     background-color: rgba(255, 255, 255, 0.4);
-    height: 20vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
 .topborder{
     display: flex;
     flex-direction: row-reverse;
-    height: 5vh;
+    height: 10%;
     gap:5px
 }
+.topnavouter {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 90%;
+}
+.logoholder{
+    position: relative;
+    width:20%;
+}
+.logoholder img{
+
+    margin-left: 10%;
+    max-width: 90%;
+    min-width: 90%;
+    min-height: 80%;
+    max-height: 80%;
+}
+
 .topnav {
+    position: relative;
+    width: 80%;
     overflow: hidden;
     display: flex;
     flex-direction: row-reverse;
-    gap:40px;
-    height:15vh
+    gap:5%;
+    height:100%;
+    right:0.5%
 }
-  
+
+@media (max-width: 584px){
+    .topnav a {
+      display: none !important;
+    }
+
+    .logoholder{
+        width: 40% !important;
+        left: 34% !important;
+        top: 10% !important;
+    }
+  }
+
+.displaysidemenu{
+    align-self: end;
+}
+
+@media (min-width: 584px){
+    .displaysidemenu {
+      display: none !important;
+    }
+  }
+
 .topnav a {
 color: rgba(16,75,115,255);
 text-align: center;
 text-decoration: none;
-
+align-self: end;
 position: relative;
-top:10vh;
+font-size: larger;
 bottom:0vh
 }
 
@@ -39,29 +83,52 @@ color: rgba(16,75,115,255);
 font-weight:bold;
 }
 
+
+.topnav a {
+color: rgba(16,75,115,255);
+text-align: center;
+text-decoration: none;
+align-self: end;
+position: relative;
+font-size: larger;
+bottom:0vh
+}
+
+.topnav a:hover {
+color: rgba(16,75,115,255);
+font-weight:bold;
+}
+
+.topnav a.active {
+color: rgba(16,75,115,255);
+font-weight:bold;
+}
 .rectangle{
     background: rgba(29,49,85,255);
     width: 100%;
-    height: 20px;
+    height: 100%;
 }
 .rectangle1 {
     background: rgba(29,49,85,255);
     width: 300px;
-    height: 20px;
+    height: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)
     
 }
 
 .rectangle2 {
     background: rgba(31,103,138,255);
     width: 100px;
-    height: 20px;
+    height: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)
   
 }
 
 .rectangle3 {
     background: rgba(0,166,203,255);
     width: 100px;
-    height: 20px;
+    height: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2)
 
 }
 

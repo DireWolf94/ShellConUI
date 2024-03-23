@@ -1,0 +1,11 @@
+.headerTitleTeam{
+    width: 98%;
+    background-color: rgba(238,238,240,255);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgba(29,49,85,255);
+}

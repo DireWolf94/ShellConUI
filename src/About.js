@@ -1,38 +1,41 @@
 import "./About.css"
 function About(){
     return (
+        <div className="aboutParentTop1">
+        <div className="aboutParentHeader">
+            <div className="leftBorde"></div>
+            <div className = "emptyHorizontalSpaceTop"></div>
+            <div className="rightBorde"></div>
+        </div>
         <div className="aboutParentTop">
-            <div className="leftBorder"></div>
+            <div className="leftBorde"></div>
             <div className="emptyVerticalSpaceParent">
                 <div className="emptyVertcalWhiteSpace1"></div>
-                <div className="emptyVertcalGreySpace1"></div>
+                {/* <div className="emptyVertcalGreySpace1"></div> */}
             </div>
             <div className="aboutParent">
-                <div className = "emptyHorizontalSpaceTop"></div>
+                {/* <div className = "emptyHorizontalSpaceTop"></div> */}
                 <div className = "blueLine"></div>
                 <div className = "about">
-                    <h1 >Heading1</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..,
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit..
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit..
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit..
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit..
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit..
+                    <h1 >About Shellcon</h1>
+                    <p>Shellcon is a Dubai-based, privately held construction business that
+                        specializes in projects such as Residential villas, Commercial structures,
+                        Villa extensions, Pool and Landscaping, MEP, and Interior fitouts.
+                        The organization is owned and operated by skilled and qualified
+                        professionals
                     </p>
                     <div className = "emptyHorizontalSpaceMid"></div>
-                    <h1>Heading2</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..,
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit..
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit..
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit..
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit..
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit..
+                    <h1>Our Mission</h1>
+                    <p>Our goal is to handle every project with the best possible expertise and
+                        the greatest quality of service. Our commitment to a strong work ethic
+                        and our enthusiasm for keeping up to date with the most recent
+                        developments in our company
                     </p>
                 </div>
-                <div className = "greyFooter"></div>
+                {/* <div className = "greyFooter"></div> */}
             </div>
             <div className="statsParent">
-                <div className = "emptyHorizontalSpaceStatsTop"></div>
+                {/* <div className = "emptyHorizontalSpaceStatsTop"></div> */}
                 <div className = "statsBox1">
                     <h1 className="numberStyle">50+</h1>
                     <h1 className="textStyle">PROJECTS IN<br></br> DUBAI</h1>
@@ -45,11 +48,12 @@ function About(){
             </div>
             <div className = "emptyParent">
                 <div className="emptyVertcalWhiteSpace1"></div>
-                <div className="emptyVertcalGreySpace1"></div>
+                {/* <div className="emptyVertcalGreySpace1"></div> */}
                 
             </div>
             
-            <div className="rightBorder"></div>
+            <div className="rightBorde"></div>
+        </div>
         </div>
     );
 }

@@ -1,0 +1,144 @@
+.outerFooter{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height:30vh;
+    flex-direction: row;
+    background-color: rgba(29,49,85,255)
+}
+
+@media (max-width: 584px){
+    .outerFooter {
+      height: 100vh !important;
+      flex-direction: column !important;
+      align-items: center;
+    }
+
+    .shellconLogo{
+        height: auto !important;
+        
+    }
+
+    .shellconLogo img{      
+        margin-left: 0px !important;
+    }
+    .aboutFooter{
+        align-items: center !important;
+        height: auto !important;
+      }
+
+    .officeHours {
+        align-items: center !important;
+        text-align: center !important;
+        height: auto !important;
+      }
+    .getSocial {
+        width: 60% !important;
+    }
+  }
+
+.shellconLogo{
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.shellconLogo img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    max-width: 90%;
+    max-height: 80%;
+}
+
+
+.aboutFooter{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+
+
+.officeHours{
+    min-width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.getSocial{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.socialIcons{
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    justify-content: center;
+}
+.emailAndPhoneContainer{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+}
+
+.emailAndPhone{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    justify-content: center;
+}
+
+.emailAndPhone p{
+    color: white;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.aboutFooter a {
+    color: white;
+    text-decoration: None;
+    position: relative;
+    margin-bottom: 5px;
+
+}
+
+.aboutFooter h1 {
+    color: white;
+    font-size: large;
+
+}
+    
+.aboutFooter a:hover {
+color: white;
+font-weight:bold;
+}
+
+.officeHours p{
+    color: white;
+    margin-top: 0px;
+}
+
+.officeHours h1{
+    color: white;
+    font-size: large;
+
+}
+
+.getSocial h1{
+    color: white;
+    font-size: large;
+    text-align: center;
+}
