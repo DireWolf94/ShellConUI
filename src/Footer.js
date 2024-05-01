@@ -26,7 +26,7 @@ export default function Footer() {
             <h1>Get Social</h1>
             <div className="socialIcons">
                 <SocialIcon url="https://facebook.com" bgColor="None"></SocialIcon>
-                <SocialIcon url="https://instagram.com" bgColor="None"></SocialIcon>
+                <SocialIcon url="https://www.instagram.com/shellcon.ae?igsh=YTE1aW55Z3dzZXJ2&utm_source=qr" bgColor="None"></SocialIcon>
                 <SocialIcon url="https://whatsapp.com" bgColor="None"></SocialIcon>
             </div>
             <div className="emailAndPhoneContainer">

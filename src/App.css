@@ -88,13 +88,13 @@
 
 @media (max-width: 584px){
   #service {
-    height: 265vh !important;
+    height: 210vh !important;
   }
 }
 
 @media (max-width: 584px){
   #team {
-    height: 200vh !important;
+    height: 155vh !important;
   }
 }
 #services{

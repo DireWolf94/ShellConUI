@@ -3,25 +3,30 @@ import image1 from "./assets/main_slide/bedroom.png"
 import { useState, useEffect } from "react";
 import "./Slider.css"
 import Button from '@mui/material/Button';
+import { HashLink as Link } from "react-router-hash-link";
 
 const images = [
     {
       url: image1,
-      caption: 'Services'
+      caption: 'Services',
+      to: '/#service'
     },
     {
       url: image1,
-      caption: 'Projects'
+      caption: 'Projects',
+      to: '/projects'
     },
     {
       url: image1,
-      caption: 'Gallery'
+      caption: 'Gallery',
+      to: '/gallery'
     },
   ];
 function Slider(){
     const [width, setWidth] = useState(100);
     const [height, setHeight] = useState(100);
     const [buttonText, setButtonText] = useState(images[0]["caption"])
+    const [buttonLink, setButtonLink] = useState(images[0]["to"])
     const buttonStyle = {
       position:"absolute",
       bottom: "6%",
@@ -29,6 +34,7 @@ function Slider(){
       backgroundColor: "transparent",
       left: "40%",
       right: "40%",
+      width: "20%",
       borderWidth: "10px",
       border: "solid white 1px",
       fontSize: "20px",
@@ -50,6 +56,7 @@ function Slider(){
     const onStartSlide = (id , length) => {
         console.log("image" + id);
         setButtonText(images[id-1]['caption']);
+        setButtonLink(images[id-1]['to']);
     };
     
   return (
@@ -62,8 +69,9 @@ function Slider(){
         showNavs={true}
         onStartSlide={onStartSlide}
       />
-      <Button variant="outlined" className="transparent-button" sx={buttonStyle}>{buttonText}</Button>
+      <Button component = {Link} to={buttonLink} variant="outlined" className="transparent-button" sx={buttonStyle}>{buttonText}</Button>
       {/* <button className="transparent-button">{buttonText}</button> */}
+  
     </div>
   );
 }
