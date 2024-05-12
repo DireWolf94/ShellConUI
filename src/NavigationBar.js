@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import blueLogo from "./assets/logo-removebg-preview.png";
-import "./NavigationBar.css";
+import "./styles/NavigationBar.css";
 import DrawerList from "./SideNav";
 import { HashLink as Link } from "react-router-hash-link";
+
 function NavigationBar(){
     console.log(window.location.pathname);
     const [color,setColor] = useState(null);
@@ -24,7 +25,7 @@ function NavigationBar(){
         </div>
         <div className="topnavouter">
             <div className="logoholder">
-                <img src = {blueLogo}></img>
+                <img src = {blueLogo} alt = {""}></img>
             </div>
             
             <div className="topnav">

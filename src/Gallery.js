@@ -3,7 +3,6 @@ import { Gallery } from "react-grid-gallery";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import  images from "./assets/GalleryImages";
-import { Image } from "react-grid-gallery";
 
 export default function GalleryShow() {
     const slides = images.map(({ src, width, height }) => ({

@@ -1,13 +1,14 @@
-import "./Footer.css"
+import "./styles/Footer.css"
 import whiteLogo from "./assets/logo_white-removebg-preview.png";
 import { SocialIcon } from 'react-social-icons'
 import { MdEmail, MdLocalPhone } from "react-icons/md";
+
 export default function Footer() {
   console.log(window.location.pathname );
   return (
     <div className="outerFooter" id="contact" >
         <div className="shellconLogo">
-            <img src={whiteLogo}></img>
+            <img src={whiteLogo} alt={""}></img>
         </div>
         <div className="aboutFooter">
             <h1>About</h1>

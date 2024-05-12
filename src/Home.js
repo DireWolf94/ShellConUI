@@ -1,11 +1,10 @@
 
-import './App.css';
+import './styles/App.css';
 import Slider from './Slider';
-import NavigationBar from './NavigationBar';
 import About from './About';
 import Services from './Services';
-import Footer from './Footer';
 import Team from './Team';
+
 function Home() {
   return (
     <div className="parent">

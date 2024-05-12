@@ -1,9 +1,10 @@
-import "./Service.css"
+import "./styles/Service.css"
 import CardHolder from "./card";
 import civilWorksLogo from "./assets/services/civil_works.png";
 import structuralExtensionLogo from "./assets/services/interior_fitout.png";
 import mepWorksLogo from "./assets/services/mep_works.png";
 import interiorFitoutLogo from "./assets/services/structural extension.png";
+
 function Services(){
 
     const mockContent = "This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like."

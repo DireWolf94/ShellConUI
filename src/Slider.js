@@ -1,7 +1,7 @@
 import SimpleImageSlider from "react-simple-image-slider";
 import image1 from "./assets/main_slide/bedroom.png"
 import { useState, useEffect } from "react";
-import "./Slider.css"
+import "./styles/Slider.css"
 import Button from '@mui/material/Button';
 import { HashLink as Link } from "react-router-hash-link";
 

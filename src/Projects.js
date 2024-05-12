@@ -9,7 +9,7 @@ import JGELogo from "./assets/projects/JGE.jpg";
 import jumerirahVillageTriangleLogo from "./assets/projects/JUMEIRAH_VILLAGE_TRIANGLE.jpg";
 import meadows5Logo from "./assets/projects/MEADOWS_5.jpg";
 import palmLogo from "./assets/projects/PALM.jpg";
-import { Grid, Item } from "@mui/material";
+import { Grid } from "@mui/material";
 
 
 function Projects() {

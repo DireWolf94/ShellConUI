@@ -1,11 +1,11 @@
-import "./Service.css"
+import "./styles/Service.css"
 import CardHolder from "./card";
-import civilWorksLogo from "./assets/services/civil_works.png";
 import structuralExtensionLogo from "./assets/services/interior_fitout.png";
 import mepWorksLogo from "./assets/services/mep_works.png";
 import interiorFitoutLogo from "./assets/services/structural extension.png";
-import "./Team.css"
+import "./styles/Team.css"
 import {abbaja_content, babuja_content, sakaku_content} from "./assets/TeamConstants.js"
+
 function Team(){
 
 

@@ -1,9 +1,6 @@
 
-import './App.css';
-import Slider from './Slider';
+import './styles/App.css';
 import NavigationBar from './NavigationBar';
-import About from './About';
-import Services from './Services';
 import Footer from './Footer';
 import Home from './Home';
 import { Routes, Route } from "react-router-dom"
