@@ -1,5 +1,5 @@
 import "./styles/Footer.css"
-import whiteLogo from "./assets/logo_white-removebg-preview.png";
+import whiteLogo from "./assets/logo_white-removebg-preview-1.png";
 import { SocialIcon } from 'react-social-icons'
 import { MdEmail, MdLocalPhone } from "react-icons/md";
 
