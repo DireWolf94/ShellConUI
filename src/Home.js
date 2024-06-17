@@ -15,7 +15,7 @@ function Home() {
       </div>
       <div className='box' id='about'><About></About></div>
       <div className='box' id='service'><Services></Services></div>
-      <div className='box' id='team'><Team></Team></div>
+      {/* <div className='box' id='team'><Team></Team></div> */}
       
     
     </div>

@@ -18,7 +18,7 @@ export default function TemporaryDrawer() {
   const DrawerList = (
     <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
       <List>
-        {[['Home', "/"], ['Services', "/#service"], ['Team', "/#team"], ['Projects',"/projects"], ['Gallery',"/gallery"], ['Contact Us', "#contact"]].map(tuple => (
+        {[['Home', "/"], ['Services', "/#service"], ['Projects',"/projects"], ['Gallery',"/gallery"], ['Contact Us', "#contact"]].map(tuple => (
           
           <ListItem key={tuple[0]} disablePadding component="a" href={tuple[1]} style={{color: "rgba(16,75,115,255)"}}>
             <ListItemButton>

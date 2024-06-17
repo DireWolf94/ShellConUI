@@ -22,13 +22,9 @@
     flex-direction: column;
 }
 
-@media (max-width: 584px){
-    .header {
-      height: 100px !important;
-    }
-  }
+
 .header{
-    height: 20%;
+    height: 100px;
     background-color: rgba(238,238,240,255);
     display: flex;
     flex-direction: row;
@@ -66,14 +62,9 @@
     width: 15%;
     background-color: rgba(238,238,240,255);
 }
-@media (max-width: 584px){
-    .emptyRowWhite{
-      height: 2.5% !important;
-    }
-  }
 
 .emptyRowWhite{
-    height: 15%;
+    height: 50px;
     background-color: white;
 
 }
@@ -86,22 +77,24 @@
 
 @media (max-width: 584px){
     .imageHolder{
-        flex-direction: column !important;
-        height: 85% !important;
-        justify-content: space-between !important;
-        align-items: center;
-        bottom: 5%;
+        grid-template-columns: auto !important;
     }
   }
 
 .imageHolder{
-    height: 55%;
+    /* height: 65%; */
     color: rgba(29,49,85,255);
-    display: flex;
+    display: grid;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: 400px 400px;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    margin: 1px;
 }
+
+
 
 .image{
     width: 20%;

@@ -32,9 +32,9 @@ function Slider(){
       bottom: "6%",
       top: "87%",
       backgroundColor: "transparent",
-      left: "40%",
-      right: "40%",
-      width: "20%",
+      left: "calc(50% - 60px)",
+      right: "calc(50% - 60px)",
+      width: "120px",
       borderWidth: "10px",
       border: "solid white 1px",
       fontSize: "20px",
@@ -69,7 +69,10 @@ function Slider(){
         showNavs={true}
         onStartSlide={onStartSlide}
       />
-      <Button component = {Link} to={buttonLink} variant="outlined" className="transparent-button" sx={buttonStyle}>{buttonText}</Button>
+
+      <Button component = {Link} to={buttonLink} variant="outlined" sx={buttonStyle}>{buttonText}</Button>
+
+      
       {/* <button className="transparent-button">{buttonText}</button> */}
   
     </div>

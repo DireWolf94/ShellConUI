@@ -14,19 +14,16 @@ export default function Footer() {
             <h1>About</h1>
             <a href="#home">Home</a>
             <a href="#service">Services</a>
-            <a href="#team">Team</a>
             <a href="/projects">Projects</a>
             <a href="/gallery">Gallery</a>
         </div>
         <div className="officeHours">
             <h1>Office Hours</h1>
-            <p>Monday to Friday <br></br>9:00 am to  6:00pm</p>
-            <p>Saturday <br></br>9:00 am to  12:00 noon</p>
+            <p>Monday to Friday <br></br>8:00 am to  5:00pm</p>
         </div>
         <div className="getSocial">
             <h1>Get Social</h1>
             <div className="socialIcons">
-                <SocialIcon url="https://facebook.com" bgColor="None"></SocialIcon>
                 <SocialIcon url="https://www.instagram.com/shellcon.ae?igsh=YTE1aW55Z3dzZXJ2&utm_source=qr" bgColor="None"></SocialIcon>
                 <SocialIcon url="https://whatsapp.com" bgColor="None"></SocialIcon>
             </div>

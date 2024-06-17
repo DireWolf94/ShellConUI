@@ -63,7 +63,6 @@
 .box {
   position: relative;
   background-color: white;
-  height: 100vh;
   width: 98.93vw;
 }
 
@@ -84,13 +83,14 @@
 
 #about{
   background-color: white;
+  height: 100vh;
 }
 
-@media (max-width: 584px){
+/* @media (max-width: 584px){
   #service {
     height: 210vh !important;
   }
-}
+} */
 
 @media (max-width: 584px){
   #team {
@@ -105,6 +105,7 @@
 #home{
   position: relative;
   margin-top:-20vh;
+  height: 100vh;
 }
 
 

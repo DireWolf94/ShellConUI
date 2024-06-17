@@ -36,7 +36,6 @@ function NavigationBar(){
                 <Link to="/gallery" activeClassName = "active" onClick={()=>{setColor('rgba(220,243,255,255)')}}>Gallery</Link>
                 <Link to="/projects" activeClassName = "active" onClick={()=>{setColor('rgba(220,243,255,255)')}}>Projects</Link>
                 <Link to="/#service" activeClassName = "active" onClick={()=>{setColor(null)}}>Services</Link>
-                <Link to="/#team" activeClassName = "active" onClick={()=>{setColor(null)}}>Team</Link>
                 <Link to="/" activeClassName = "active" onClick={()=>{setColor(null)}}>Home</Link>
                 
             </div>
