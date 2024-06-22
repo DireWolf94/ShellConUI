@@ -15,8 +15,6 @@ function Services(){
             <div className="serviceParent">
                 <div className="header">
                     <div className="headerTitle">Our Services</div>
-                    <div className="blueBox"></div>
-                    <div className="greyBox"></div>
                 </div>
                 <div className="emptyRowWhite"></div>
                 <div className="imageHolder">

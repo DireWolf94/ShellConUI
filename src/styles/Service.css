@@ -33,7 +33,7 @@
 }
 
 .headerTitle{
-    width: 60%;
+    width: 100%;
     background-color: rgba(238,238,240,255);
     display: flex;
     align-content: center;
@@ -75,7 +75,7 @@
 
 }
 
-@media (max-width: 584px){
+@media (max-width: 800px){
     .imageHolder{
         grid-template-columns: auto !important;
     }

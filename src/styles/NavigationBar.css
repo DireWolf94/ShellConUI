@@ -20,6 +20,7 @@
 .logoholder{
     position: relative;
     width:20%;
+    min-width: 200px;
 }
 .logoholder img{
 
@@ -47,9 +48,9 @@
     }
 
     .logoholder{
-        width: 40% !important;
-        left: 34% !important;
         top: 10% !important;
+        width: 200px !important;
+        left: calc(50% - 100px);
     }
   }
 

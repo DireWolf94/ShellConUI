@@ -24,18 +24,29 @@ function About(){
                         The organization is owned and operated by skilled and qualified
                         professionals
                     </p>
-                    <div className = "emptyHorizontalSpaceMid"></div>
+                    {/* <div className = "emptyHorizontalSpaceMid"></div> */}
+                    
                     <h1>Our Mission</h1>
                     <p>Our goal is to handle every project with the best possible expertise and
                         the greatest quality of service. Our commitment to a strong work ethic
                         and our enthusiasm for keeping up to date with the most recent
                         developments in our company
                     </p>
+                    <div className = "statsParent">
+                        <div className = "statsBox1">
+                            <h1 className="numberStyle">50+</h1>
+                            <h1 className="textStyle">PROJECTS IN<br></br> DUBAI</h1>
+                        </div>
+                        <div className = "statsBox2">
+                            <h1 className="numberStyle">30+</h1>
+                            <h1 className="textStyle">YEARS<br></br> EXPERIENCE</h1>
+                        </div>
+                    </div>
+                    
                 </div>
                 {/* <div className = "greyFooter"></div> */}
             </div>
-            <div className="statsParent">
-                {/* <div className = "emptyHorizontalSpaceStatsTop"></div> */}
+            {/* <div className="statsParent">
                 <div className = "statsBox1">
                     <h1 className="numberStyle">50+</h1>
                     <h1 className="textStyle">PROJECTS IN<br></br> DUBAI</h1>
@@ -45,12 +56,12 @@ function About(){
                     <h1 className="numberStyle">30+</h1>
                     <h1 className="textStyle">YEARS<br></br> EXPERIENCE</h1>
                 </div>
-            </div>
-            <div className = "emptyParent">
+            </div> */}
+            
+            {/* <div className = "emptyParent">
                 <div className="emptyVertcalWhiteSpace1"></div>
-                {/* <div className="emptyVertcalGreySpace1"></div> */}
                 
-            </div>
+            </div> */}
             
             <div className="rightBorde"></div>
         </div>
