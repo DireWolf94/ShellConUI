@@ -19,13 +19,13 @@ export default function Footer() {
         </div>
         <div className="officeHours">
             <h1>Office Hours</h1>
-            <p>Monday to Friday <br></br>8:00 am to  5:00pm</p>
+            <p>Monday to Friday <br></br>8:00 am to 5:00 pm</p>
         </div>
         <div className="getSocial">
             <h1>Get Social</h1>
             <div className="socialIcons">
                 <SocialIcon url="https://www.instagram.com/shellcon.ae?igsh=YTE1aW55Z3dzZXJ2&utm_source=qr" bgColor="None"></SocialIcon>
-                <SocialIcon url="https://whatsapp.com" bgColor="None"></SocialIcon>
+                <SocialIcon url="https://whatsapp.com" href= "https://wa.me/message/DJ6UPUFLN5R6N1" bgColor="None"></SocialIcon>
             </div>
             <div className="emailAndPhoneContainer">
                 <div className="emailAndPhone">

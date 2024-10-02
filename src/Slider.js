@@ -1,5 +1,7 @@
 import SimpleImageSlider from "react-simple-image-slider";
 import image1 from "./assets/main_slide/bedroom.png"
+import image2 from "./assets/main_slide/living.png"
+import image3 from "./assets/main_slide/bathroom.png"
 import { useState, useEffect } from "react";
 import "./styles/Slider.css"
 import Button from '@mui/material/Button';
@@ -12,12 +14,12 @@ const images = [
       to: '/#service'
     },
     {
-      url: image1,
+      url: image2,
       caption: 'Projects',
       to: '/projects'
     },
     {
-      url: image1,
+      url: image3,
       caption: 'Gallery',
       to: '/gallery'
     },

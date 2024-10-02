@@ -32,7 +32,13 @@ function About(){
                         and our enthusiasm for keeping up to date with the most recent
                         developments in our company
                     </p>
-                    <div className = "statsParent">
+                    <h1>Our Experience</h1>
+                    <p>Our goal is to handle every project with the best possible expertise and
+                        the greatest quality of service. Our commitment to a strong work ethic
+                        and our enthusiasm for keeping up to date with the most recent
+                        developments in our company
+                    </p>
+                    {/* <div className = "statsParent">
                         <div className = "statsBox1">
                             <h1 className="numberStyle">50+</h1>
                             <h1 className="textStyle">PROJECTS IN<br></br> DUBAI</h1>
@@ -41,7 +47,7 @@ function About(){
                             <h1 className="numberStyle">30+</h1>
                             <h1 className="textStyle">YEARS<br></br> EXPERIENCE</h1>
                         </div>
-                    </div>
+                    </div> */}
                     
                 </div>
                 {/* <div className = "greyFooter"></div> */}
