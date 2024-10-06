@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ShellConUI/static/css/main.bfd5f824.css",
-    "main.js": "/ShellConUI/static/js/main.30fffdf0.js",
+    "main.js": "/ShellConUI/static/js/main.6831aa5a.js",
     "static/media/bedroom.png": "/ShellConUI/static/media/bedroom.661aa4205571a8ff1cdc.png",
     "static/media/living.png": "/ShellConUI/static/media/living.65ed31e389249f6e8650.png",
     "static/media/DISTRICT_ONE.jpg": "/ShellConUI/static/media/DISTRICT_ONE.7590b85f5becc3e049f4.jpg",
@@ -67,10 +67,10 @@
     "static/media/structural extension.png": "/ShellConUI/static/media/structural extension.1095c706ae1f0ff6860b.png",
     "index.html": "/ShellConUI/index.html",
     "main.bfd5f824.css.map": "/ShellConUI/static/css/main.bfd5f824.css.map",
-    "main.30fffdf0.js.map": "/ShellConUI/static/js/main.30fffdf0.js.map"
+    "main.6831aa5a.js.map": "/ShellConUI/static/js/main.6831aa5a.js.map"
   },
   "entrypoints": [
     "static/css/main.bfd5f824.css",
-    "static/js/main.30fffdf0.js"
+    "static/js/main.6831aa5a.js"
   ]
 }
