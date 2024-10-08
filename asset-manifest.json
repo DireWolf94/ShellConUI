@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a7db8eff.css",
-    "main.js": "/static/js/main.227302f4.js",
+    "main.css": "/static/css/main.b4885299.css",
+    "main.js": "/static/js/main.5b71365f.js",
     "static/media/DISTRICT_ONE.jpg": "/static/media/DISTRICT_ONE.7590b85f5becc3e049f4.jpg",
     "static/media/MEADOWS_5.jpg": "/static/media/MEADOWS_5.8f00cee20beaba8a1842.jpg",
     "static/media/living.png": "/static/media/living.089946cbce6235d7e22f.png",
@@ -66,11 +66,11 @@
     "static/media/BD.jpg": "/static/media/BD.34b098ca0e0c5e545701.jpg",
     "static/media/structural extension.png": "/static/media/structural extension.1095c706ae1f0ff6860b.png",
     "index.html": "/index.html",
-    "main.a7db8eff.css.map": "/static/css/main.a7db8eff.css.map",
-    "main.227302f4.js.map": "/static/js/main.227302f4.js.map"
+    "main.b4885299.css.map": "/static/css/main.b4885299.css.map",
+    "main.5b71365f.js.map": "/static/js/main.5b71365f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7db8eff.css",
-    "static/js/main.227302f4.js"
+    "static/css/main.b4885299.css",
+    "static/js/main.5b71365f.js"
   ]
 }
