@@ -2,6 +2,7 @@ import "./styles/Footer.css"
 import whiteLogo from "./assets/logo_white-removebg-preview-1.png";
 import { SocialIcon } from 'react-social-icons'
 import { MdEmail, MdLocalPhone } from "react-icons/md";
+import { HashLink } from 'react-router-hash-link';
 
 export default function Footer() {
   console.log(window.location.pathname );
@@ -12,10 +13,10 @@ export default function Footer() {
         </div>
         <div className="aboutFooter">
             <h1>About</h1>
-            <a href="#home">Home</a>
-            <a href="#service">Services</a>
-            <a href="/projects">Projects</a>
-            <a href="/gallery">Gallery</a>
+            <HashLink to="/#home">Home</HashLink>
+            <HashLink to="/#service">Services</HashLink>
+            <HashLink to="/projects">Projects</HashLink>
+            <HashLink to="/gallery">Gallery</HashLink>
         </div>
         <div className="officeHours">
             <h1>Office Hours</h1>
